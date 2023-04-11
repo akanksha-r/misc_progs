@@ -1,6 +1,6 @@
 
 ## Load the data
-data = read.csv("../akanksha/Documents/Test_data.csv")
+data = read.csv("Test_data.csv")
 
 # Perform linear regression
 model <- lm(outcome2 ~ sex+heart2+agedx+age_allevts, data = data)
